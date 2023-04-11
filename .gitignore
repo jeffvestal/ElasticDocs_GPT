@@ -1,0 +1,5 @@
+*replit*
+*pyc
+.config
+venv
+main-notokenlimit.py
