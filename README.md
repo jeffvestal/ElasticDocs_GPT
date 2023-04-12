@@ -1,6 +1,8 @@
 # ElasticDocs_GPT
 Combining the search power of Elasticsearch with the Question Answering power of GPT
 
+Blog Forthcoming
+
 ![diagram](https://raw.githubusercontent.com/jeffvestal/ElasticDocs_GPT/main/ElasticChat%20GPT%20Diagram%20-%20No%20line%20text.jpeg)
 
 1. Python interface accepts user questions
