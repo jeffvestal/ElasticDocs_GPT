@@ -3,7 +3,7 @@ Combining the search power of Elasticsearch with the Question Answering power of
 
 Blog Forthcoming
 
-![diagram](https://raw.githubusercontent.com/jeffvestal/ElasticDocs_GPT/main/ElasticChat%20GPT%20Diagram%20-%20No%20line%20text.jpeg)
+![diagram](https://raw.githubusercontent.com/jeffvestal/ElasticDocs_GPT/main/images/ElasticChat%20GPT%20Diagram%20-%20No%20line%20text.jpeg)
 
 1. Python interface accepts user questions
 - Generate a hybrid search request for Elasticsearch
@@ -17,3 +17,12 @@ Blog Forthcoming
 - Prompt: "answer this question <question> using only this document <body_content from top search result>"
 5. Generated response is returned to python
 6. Python adds on original documentation source url to generated response and prints it to the screen for the user
+
+# Examples
+  ![autoscale](https://raw.githubusercontent.com/jeffvestal/ElasticDocs_GPT/main/images/elasticDocs%20GPT%20-%20elastic%20cloud%20autoscaling.png)
+  
+  ![apm](https://raw.githubusercontent.com/jeffvestal/ElasticDocs_GPT/main/images/elasticDocs%20GPT%20-%20elastic%20jvm%20apm.png)
+  
+  ![inference](https://github.com/jeffvestal/ElasticDocs_GPT/blob/main/images/elasticDocs%20GPT%20-%20inference%20processor.png)
+  
+  ![pii](https://raw.githubusercontent.com/jeffvestal/ElasticDocs_GPT/main/images/elasticDocs%20GPT%20-%20redact%20pii.png)
