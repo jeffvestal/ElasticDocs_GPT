@@ -101,7 +101,7 @@ with st.form("chat_form"):
     submit_button = st.form_submit_button("Send")
 
 # Generate and display response on form submission
-negResponse = "I'm sorry I couldn't find the answer, try rewording your question"
+negResponse = "I'm unable to answer the question based on the information I have from Elastic Docs."
 if submit_button:
     resp, url = search(query)
     prompt = f"Answer this question: {query}\nUsing only the information from this Elastic Doc: {resp}\nIf the answer is not contained in the supplied doc reply '{negResponse}' and nothing else"
