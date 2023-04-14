@@ -101,8 +101,13 @@ with st.form("chat_form"):
     submit_button = st.form_submit_button("Send")
 
 # Generate and display response on form submission
+negResponse = "I'm sorry I couldn't find the answer, try rewording your question"
 if submit_button:
     resp, url = search(query)
-    prompt = f"Answer this question: {query}\nUsing only the information from this Elastic Doc: {resp}"
+    prompt = f"Answer this question: {query}\nUsing only the information from this Elastic Doc: {resp}\nIf the answer is not contained in the supplied doc reply '{negResponse}' and nothing else"
     answer = chat_gpt(prompt)
-    st.write(f"ChatGPT: {answer.strip()}\n\nDocs: {url}")
+    
+    if negResponse in answer:
+        st.write(f"ChatGPT: {answer.strip()}")
+    else:
+        st.write(f"ChatGPT: {answer.strip()}\n\nDocs: {url}")
