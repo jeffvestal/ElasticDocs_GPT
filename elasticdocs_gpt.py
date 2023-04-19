@@ -6,6 +6,7 @@ from elasticsearch import Elasticsearch
 # This code is part of an Elastic Blog showing how to combine
 # Elasticsearch's search relevancy power with 
 # OpenAI's GPT's Question Answering power
+# https://www.elastic.co/blog/chatgpt-elasticsearch-openai-meets-private-data
 
 # Code is presented for demo purposes but should not be used in production
 # You may encounter exceptions which are not handled in the code
