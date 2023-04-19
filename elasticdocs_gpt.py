@@ -7,6 +7,9 @@ from elasticsearch import Elasticsearch
 # Elasticsearch's search relevancy power with 
 # OpenAI's GPT's Question Answering power
 
+# Code is presented for demo purposes but should not be used in production
+# You may encounter exceptions which are not handled in the code
+
 
 # Required Environment Variables
 # openai_api - OpenAI API Key
